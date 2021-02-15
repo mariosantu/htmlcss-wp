@@ -45,6 +45,7 @@ img {
     display: table;
     clear: both;
 }
+
 /*COMMON*/
 
 /*Wrapper start*/
@@ -106,8 +107,6 @@ img {
     color: white;
     
 }
-
-
 /*Banner End*/
 
 /*Header End*/
@@ -151,11 +150,12 @@ h4, p {
 /*Main End*/
 
 /*Footer Start*/
+
  footer {
      text-align: center;
      margin-top: 70px;
  }
- 
+
 .heart {
     color: red;
 }
