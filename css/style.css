@@ -149,3 +149,15 @@ h4, p {
 
 
 /*Main End*/
+
+/*Footer Start*/
+ footer {
+     text-align: center;
+     margin-top: 70px;
+ }
+ 
+.heart {
+    color: red;
+}
+/*Footer End*/
+
