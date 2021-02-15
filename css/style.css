@@ -1,3 +1,65 @@
-body{
-    background-color: aqua;
+/*RESET*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
 }
+
+/*RESET*/
+
+/*COMMON*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.clearfix::after {
+    content: "" ;
+    display: table;
+    clear: both;
+}
+
+img {
+    width: 100%;
+}
+
+.margin_common {
+    margin: 20px 0;
+}
+
+/*COMMON*/
+
+/*Wrapper start*/
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+/*Wrapper end*/
+
+/*Header Start*/
+
+.logo img {
+    width: 150px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 2% 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*Header End*/
